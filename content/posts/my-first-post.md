@@ -6,7 +6,7 @@ draft: false
 
 ## Introduction
 
-The site construction is in progress. This is **bold** text, and this is *emphasized* text.
+The site construction is currently in progress. This is **bold** text, and this is *emphasized* text.
 
 Visit the [Hugo](https://gohugo.io) website!
 
