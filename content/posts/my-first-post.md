@@ -6,7 +6,7 @@ draft: false
 
 ## Introduction
 
-This is **bold** text, and this is *emphasized* text.
+This site construction is still in progress. This is **bold** text, and this is *emphasized* text.
 
 Visit the [Hugo](https://gohugo.io) website!
 
