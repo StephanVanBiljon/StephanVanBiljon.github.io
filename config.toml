@@ -1,4 +1,7 @@
 baseURL = 'https://stephanvanbiljon.github.io/'
 languageCode = 'en-gb'
 title = 'Stephans Site'
-theme = 'ananke'
+
+[params]
+
+name = 'Stephan van Biljon'
