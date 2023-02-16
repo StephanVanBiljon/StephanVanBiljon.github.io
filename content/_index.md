@@ -1,6 +1,14 @@
 ---
 title: Home
 ---
-# This is my website
+# Stéphan van Biljon
 
-Testing out how content will be displayed
+**(A)**
+## About
+
+
+**(B)**
+## Portfolio
+
+**(C)**
+## Contact
