@@ -1,3 +1,14 @@
+/* Colour palette: Primary, 
+                   Secondary/Tertiary, 
+                   Background
+   Going for Google/Atlassian look
+*/
+$blue-crayola: #1d75f7ff;
+$jade: #2faa6fff;
+$jonquil: #ffd02dff;
+$fire-engine-red: #cb1e27ff;
+$white: #ffffffff;
+
 html, body {
     height: 100%
 }
@@ -6,29 +17,21 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
   
     nav {
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
         padding: 3px 5px;
-        background-color: #efeaea;
+        background-color: $blue-crayola;
         width: 10%;
 
         a {
 
-            &:hover {
-            text-decoration: underline;
-            }
-
             img {
                 max-height: 2em;
             }
-        }
-
-        li {
-            display: inline;
         }
     }
 
@@ -42,7 +45,7 @@ body {
     }
 
     footer {
-    background: #f1ede8;
+    background: $blue-crayola;
     padding: 2px 2px;
     font-size: .7em;
     text-align: center;

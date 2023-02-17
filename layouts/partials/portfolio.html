@@ -1,0 +1,14 @@
+{{ $sass := resources.Get "sass/portfolio.scss" }}
+{{ $style := $sass | resources.ToCSS | resources.Fingerprint }}
+<link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity }}">
+
+<div class="portfolio-container">
+    <div class="card-container">
+      <div class="card-1"></div>
+      <div class="card-2"></div>
+      <div class="card-3"></div>
+    </div>
+    <div class="project-details">
+  
+    </div>
+</div>
