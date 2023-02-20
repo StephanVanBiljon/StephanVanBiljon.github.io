@@ -15,6 +15,20 @@
   border: 1px solid black; }
 
 .card-1, .card-2, .card-3 {
+  display: flex;
+  flex-direction: row;
   border: 1px solid black;
   margin: 0em 2em 0em 0em;
   height: 28%; }
+
+.colour-1, .colour-2, .colour-3 {
+  width: 5%; }
+
+.colour-1 {
+  background-color: #2faa6fff; }
+
+.colour-2 {
+  background-color: #ffd02dff; }
+
+.colour-3 {
+  background-color: #cb1e27ff; }
